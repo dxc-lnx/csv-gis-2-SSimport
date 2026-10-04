@@ -4,9 +4,6 @@ TODO:
 """
 
 # -----------------------------------------------------------------------------
-# Copyright (c) 2025 California Pavement Preservation Center (CP²C)
-# All Rights Reserved.
-#
 # Authors: Cirenio Sanchez, Dr.DingXin Cheng
 # Date: 2025-09-19
 # -----------------------------------------------------------------------------

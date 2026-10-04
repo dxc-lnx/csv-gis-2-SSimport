@@ -1,4 +1,4 @@
-# shortest-dist-gis-map
+# CSV to SSimport
 Step 1: Prepare Layers
 Make sure your points layer and polyline layer are both in a projected CRS (e.g., UTM).
 (Distances in degrees don’t make sense.)
