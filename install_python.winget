@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+# Reference: https://learn.microsoft.com/windows/python/beginners
+# Modified by Cirenio Sanchez
+
+##########################################################################################################
+# This configuration will install the tools necessary to get started with Python development on Windows  #
+#                                                                                                        #
+# This will:                                                                                             #
+#     * Install Python                                                                                   #
+#     * Install required libraries                                                                       #
+#                                                                                                        #
+#                                                                                                        #
+##########################################################################################################
+
+properties:
+  resources:
+    # 1) Install Python (Microsoft Store)
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: Python 3.13
+      directives:
+        description: Install Python 3.13 from Microsoft Store
+      settings:
+        id: 9PNRBTZXMB4Z
+        source: msstore
+
+    # 2) Pip install required libraries (now includes fiona)
+    - resource: PSDscResources/Script
+      id: Python Pip Packages
+      directives:
+        description: Install required Python packages with pip
+      dependsOn:
+        - Python 3.13
+      settings:
+        # Returns some info for diagnostics; not used by DSC logic
+        GetScript: |
+          @{
+            Packages = 'pandas,geopandas,shapely,openpyxl,fiona'
+          }
+        # Only run SetScript if these imports succeed/fail
+        TestScript: |
+          try {
+            & py -c "import pandas, geopandas, shapely, openpyxl, fiona" | Out-Null
+            $true
+          } catch { $false }
+        # Install/upgrade pip and the packages
+        SetScript: |
+          & py -m pip install --upgrade pip
+          & py -m pip install --upgrade pandas geopandas shapely openpyxl fiona
+  configurationVersion: 0.2.0

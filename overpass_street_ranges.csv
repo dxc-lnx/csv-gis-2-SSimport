@@ -1,0 +1,77 @@
+surveyed_street,beginning_street,end_street,start_direction,start_feet,start_comment_street,end_direction,end_feet,end_comment_street
+Orion,Stardust,West Tower,N,270.0,West Tower,N,70.0,West Tower
+Stardust,Serenade,Hancock,,,,E,200.0,Serenade
+Serenade,Stardust,End,S,185.0,Stardust,S,15.0,Stardust
+Stardust,Serenade,Orion,W,22.0,Serenade,W,220.0,Serenade
+Pan Am,West Midway,Ranger,S,12.0,Midway,S,212.0,Midway
+Pan Am,Seattle,West Essex,,,,S,200.0,Seattle
+Todd,West Midway,West Essex,N,285.0,W.Midway,N,85.0,W.Midway
+Todd,West Essex,Redline,S,70.0,Redline,S,270.0,Redline
+Redline,Monarch,Lexington,NW,250.0,Lexington,NW,50.0,Lexington
+Pearl Harbor,Essex,West Essex,NE,125.0,Essex,,,
+Viking,Hornet,Ticondaroga,SW,80.0,Ticondaroga,SW,280.0,Ticondaroga
+Viking,Hornet,Ticondaroga,NW,165.0,Hornet,NW,25.0,Hornet
+Glenview,Red Jacket Lane,Bryant,,,,S,200.0,Red Jacket Lane
+Hollister,Glenview,Mosley,E,80.0,Glenview,E,280.0,Glenview
+Ansel,Mosley,Glenview,E,25.0,Sandpiper,E,225.0,Sanpiper
+Mall,Saratoga,Lexington,E,200.0,Lexington,,,
+West Tower,Orion,Hancock,E,210.0,Orion,E,410.0,Orion
+Lexington,West Tower,Ranger,N,320.0,W.Tower,N,120.0,West Tower
+Redline,Monarch,Lexington,E,500.0,Monarch,E,700.0,Monarch
+West Tower,Orion,Hancock,,,,,,
+Orion,Tower,Stardust,,,,,,
+Stardust,Serenade,Hancock,,,,,,
+Serenade,Stardust,End,,,,,,
+Stardust,Serenade,Orion,,,,,,
+Pan Am,West Midway,Ranger,,,,,,
+Pan Am,Seattle,West Essex,,,,,,
+Todd,Essex,Midway,,,,,,
+Todd,West Redline,West Essex,,,,,,
+Lexington,Tower,Ranger,,,,,,
+Redline,Monarch,Lexington,,,,,,
+Redline,Monarch,Lexington,,,,,,
+West Mall,Savatoga,Lexington,,,,,,
+Pearl Harbor,Essex,Orion,,,,,,
+Viking,Hornet,Ticondaroga,,,,,,
+Viking,Hornet,Ticondaroga,,,,,,
+Glenview,Kingfisher,Bryant,,,,,,
+Hollister,Glenview,Hollister,,,,,,
+Ansel,Mosley,Glenview,,,,,,
+West Capt. Dodge,Saratoga,Lexington,,,,,,
+Barbers Point,Corpus Christi,Pearl Harbor,,,,,,
+Glenview,Ansel,Kingfisher,,,,,,
+Glenview,Ansel,Kingfisher,,,,,,
+West Midway Avenue,Lexington Street,Monarch Street,,,,,,
+West Midway Avenue,Lexington Street,Monarch Street,,,,,,
+West Midway Avenue,Lexington Street,Monarch Street,,,,,,
+West Midway Avenue,Lexington Street,Monarch Street,,,,,,
+Viking,Oriskany Avenue,Ticonderoga Avenue,,,,,,
+Viking,Oriskany,Ticonderoga,,,,,,
+West Midway Avenue,Lexington Street,Monarch Street,,,,,,
+West Trident,Lexington,Monarch,,,,,,
+Barbers Point,Pearl Harbor,Pearl Harbor,S,100.0,Pearl Harbor,S,200.0,Pearl Harbor
+Redline,Pan Am,Todd,,,,,,
+Redline,Monarch,Monarch,E,65.0,Monarch,E,165.0,Monarch
+Hornet,Hancock Street,Hancock Street,E,422.0,Hancock Street,E,522.0,Hancock Street
+Ticondaroga,Skyhawk Street,Viking Street,,,,,,
+Ticondaroga,Skyhawk Street,Viking Street,,,,,,
+Hornet,Viking Street,Viking Street,E,120.0,Viking Street,E,220.0,Viking Street
+Viking,Oriskany Avenue,Oriskany Avenue,N,157.0,Oriskany Avenue,N,257.0,Oriskany Avenue
+Viking,Pacific,Pacific,N,106.0,Pacific,N,206.0,Pacific
+Viking,Atlantic,Atlantic,S,443.0,Atlantic,S,343.0,Atlantic
+Skyhawk Street,Ticonderoga Avenue,Ticonderoga Avenue,N,47.0,Ticonderoga Avenue,,,
+Skyhawk Street,Oriskany Avenue,Oriskany Avenue,W,137.0,Oriskany Avenue,N,237.0,Oriskany Avenue
+Parking Lot USS Hornet,Hornet Avenue,184 N Hornet Avenue,N,84.0,Hornet Avenue,,,
+Main Street,Navy Way,Navy Way,E,377.0,Navy Way,E,477.0,Navy Way
+Essex,Saratoga,Saratoga,E,64.0,Saratoga,E,264.0,Saratoga
+Essex,Saratoga,Saratoga,E,64.0,Saratoga,E,104.0,Saratoga
+Redline,Monarch,Monarch,E,65.0,Monarch,E,265.0,Monarch
+Hornet,Hancock Street,Hancock Street,E,322.0,Hancock Street,E,522.0,Hancock Street
+Hornet,Viking,Viking,E,120.0,Viking,E,320.0,Viking
+Viking,Oriskany Avenue,Oriskany Avenue,N,157.0,Oriskany Avenue,N,357.0,Oriskany Avenue
+Viking,Pacific,Pacific,N,106.0,Pacific,N,306.0,Pacific
+Viking,Atlantic Way,Atlantic Way,S,443.0,Atlantic Way,S,243.0,Atlantic Way
+Skyhawk Street,Ticonderoga,Ticonderoga,N,47.0,Ticonderoga,N,247.0,Ticonderoga
+Skyhawk Street,Oriskany Avenue,Oriskany Avenue,N,137.0,Oriskany Avenue,N,337.0,Oriskany Avenue
+Parking Lot USS Hornet,84 of Hornet Avenue,284 of Hornet Avenue,,,,,,
+Main Street,Navy Way,Navy Way,E,277.0,Navy Way,E,477.0,Navy Way
