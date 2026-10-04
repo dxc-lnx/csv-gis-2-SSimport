@@ -1,0 +1,18 @@
+# Python 3.12 — install with:
+#   python -m venv venv
+#   venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# Note: query.py imports `qgis`, which is not on PyPI. Run it from the
+# QGIS Python console / python-qgis-ltr.bat, not from this venv.
+
+pandas==3.0.6
+numpy==2.5.3
+geopandas==1.2.0
+pyogrio==0.13.0      # geopandas file I/O (read_file / to_file, GPKG)
+shapely==2.1.2
+pyproj==3.8.0
+openpyxl==3.1.5
+overpy==0.7
+dbfread==2.0.7
+geographiclib==2.1
